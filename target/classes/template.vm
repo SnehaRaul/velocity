@@ -1,0 +1,11 @@
+No of student is : $stuDetails.size()
+
+Details of student
+
+#foreach( $stu in $stuDetails )
+Roll No - $stu.rno
+Name    - $stu.name
+Class   - $stu.cla
+
+#end
+-------
